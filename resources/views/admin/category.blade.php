@@ -32,7 +32,8 @@
             <h1 style="color: white">Add Category</h1>
 
             <div class="div_dig">
-            <form>
+            <form action="{{url('add_category')}}" method="POST">
+                @csrf
                 <div>
                     <input type="text" name="category">
                     <input class="btn btn-primary" type="submit" value="Add category">

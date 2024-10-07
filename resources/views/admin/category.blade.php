@@ -2,6 +2,21 @@
 <html>
   <head>
     @include('admin.css')
+
+    <style type="text/css">
+    input[type='text']
+    {
+        width: 400px;
+        height: 50px;
+    }
+
+    .div_dig
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
   </head>
   <body>
 
@@ -13,6 +28,8 @@
         <div class="page-header">
           <div class="container-fluid">
 
+
+            <div class="div_dig">
             <form>
                 <div>
                     <input type="text" name="category">
@@ -20,6 +37,8 @@
 
                 </div>
             </form>
+        </div>
+
 
           </div>
           <div class="footer__block block no-margin-bottom">

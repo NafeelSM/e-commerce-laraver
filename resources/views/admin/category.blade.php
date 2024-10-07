@@ -15,6 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 30px;
     }
     </style>
   </head>
@@ -28,6 +29,7 @@
         <div class="page-header">
           <div class="container-fluid">
 
+            <h1 style="color: white">Add Category</h1>
 
             <div class="div_dig">
             <form>
